@@ -1,0 +1,253 @@
+header {
+  background-color: #030d36;
+  color: yellow;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: start;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; 
+}
+
+ul {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-right: 20px; 
+}
+
+nav ul li:last-child { 
+  background-color: yellow;
+  padding: 10px;
+  border: 1px solid yellow; 
+  border-radius: 5px; 
+  font-size: 2cap;
+}
+
+nav ul li:last-child:hover { 
+background-color: #F7DC6F; 
+border-color: #F7DC6F; 
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+cursor: pointer; 
+}
+
+nav ul li a {
+  color: #FFFFFF; 
+  text-decoration: none; 
+}
+
+body{
+  background-color: #333;
+}
+
+
+.container {
+ 
+  background-image: url('https://i.ibb.co/C18NNkk/fondiu.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  text-align: center;
+}
+
+h2 {
+ 
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  color: #fff; 
+  font-size: 36px; 
+  margin-bottom: 20px; 
+}
+
+.btn {
+  
+  background-color: #333; 
+  color: #fff; 
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px; 
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+.btn:hover {
+  
+  background-color: #444; 
+}
+
+.aplicaciones-container {
+  /* Centrar el div */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  /* Fondo de color #333 */
+  background-color: #333;
+  padding: 20px; /* Agrega un poco de espacio interior */
+}
+
+.aplicaciones-container h1, .aplicaciones-container h2 {
+  /* Centrar los títulos */
+  text-align: center;
+  margin: 10px; /* Agrega un poco de espacio entre los títulos */
+}
+
+.aplicaciones-container h2 {
+  /* Color del texto del h2 */
+  color: #F7DC6F;
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; 
+}
+
+.gallery-item {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+
+}
+
+.gallery-item img {
+  width: 95%;
+  height: 95%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+
+
+.footer {
+  position:relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-column {
+  width: 23%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-column h4 {
+  margin-top: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  color: #23527c;
+}
+
+.footer-column form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-column input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.footer-column button[type="submit"] {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-column button[type="submit"]:hover {
+  background-color: #23527c;
+}
+
+/* Media queries para responsive design */
+@media (max-width: 768px) {
+  .footer-wrap {
+    flex-direction: column;
+  }
+  .footer-column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-column {
+    padding: 10px;
+  }
+  .footer-column h4 {
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+

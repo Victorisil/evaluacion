@@ -1,0 +1,207 @@
+.container {
+ 
+    background-image: url('https://i.ibb.co/C18NNkk/fondiu.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner-container {
+    text-align: center;
+  }
+  
+  h2 {
+   
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    color: #fff; 
+    font-size: 36px; 
+    margin-bottom: 20px; 
+  }
+  
+  .btn {
+    
+    background-color: #333; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px; 
+    cursor: pointer;
+    border-radius: 5px; 
+  }
+  
+  .btn:hover {
+    
+    background-color: #444; 
+  }
+  
+  .aplicaciones-container {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    background-color: #333;
+    padding: 20px; 
+  }
+  
+  .aplicaciones-container h1, .aplicaciones-container h2 {
+    
+    text-align: center;
+    margin: 10px; 
+  }
+  
+  .aplicaciones-container h2 {
+  
+    color: #F7DC6F;
+  }
+
+
+
+
+
+
+
+  .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #F7DC6F;
+    width: 1500px; 
+    height: 400px;
+    padding: 20px;
+    margin: 40px auto; 
+  }
+  
+  .image-container {
+    grid-column: 1; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .image {
+    width: 80%; 
+    height: 80%; 
+    border: 5px solid #333; 
+    object-fit: cover; 
+  }
+  
+  .text-container {
+    grid-column: 2; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .text-container h2 {
+    margin-top: 0; 
+  }
+  
+  .btn {
+    background-color: #4CAF50; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+  }
+  
+  .btn:hover {
+    background-color: #3e8e41; 
+  }
+
+ 
+  
+
+  
+
+
+  .form-container {
+    width: 80%; 
+    margin: 40px auto; 
+    padding: 20px; 
+    background-color: #F7DC6F; 
+    border: 1px solid #ccc; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);       }
+  
+  form {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  label {
+    margin-bottom: 10px; 
+  }
+  
+  input {
+    width: 100%; 
+    height: 40px; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc;
+  }
+  
+  .button-container {
+    display: flex; 
+    justify-content: space-between;             }
+  
+  .btn-send, .btn-cancel {
+    width: 40%; 
+    height: 40px; /
+ border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    padding: 10px;
+  }
+  
+  .btn-send {
+    background-color: #4CAF50; 
+    color: #fff; 
+  }
+  
+  .btn-cancel {
+    background-color: #ccc; 
+    color: #333; 
+  }
+  
+  .btn-send:hover, .btn-cancel:hover {
+    opacity: 0.8; 
+  }
+
+
+
+  .hera {
+    background-color: #F7DC6F; 
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center
+  }
+  
+  .hera h1 {
+    font-size: 36px; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+  }
+  
+  .hera p {
+    margin-bottom: 20px; 
+  }
+  
+  .hera button {
+    background-color: #4CAF50; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+  }
+  
+  .hera button:hover {
+    background-color: #3e8e41; 
+  }
